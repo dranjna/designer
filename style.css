@@ -1,0 +1,154 @@
+#nav-bg{
+    background-color: #f44336!important;
+    color:white!important;
+    font-weight: 700;
+    font-size: 20px;
+    height: 790px;
+    font-family: "poppes",sans-serif;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+  
+}
+.nav-link:hover{
+    background: white;
+    color:black;
+}
+.nav-link{
+    color: white;
+}
+.body{
+    font-family:"poppes",sans-serif;
+}
+.navbar-brand{
+  font-size: 24px!important;
+  font-family: "poppes",sans-serif;
+  font-weight: 400;
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+.interior{
+    font-family: "poppes",sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+}
+.showcase{
+    font-family: "poppes",sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    color:#f44336!important ;
+    /* letter-spacing: 1px; */
+    line-height: 95px;
+    font-stretch: expanded;
+}
+.hr{
+    border: 5px #f44336 solid;
+    width: 55px;
+    float: left;
+    border-radius: 5px;
+    
+}
+
+.p{
+      font-family: "Poppins", sans-serif;
+      font-size: 16px;
+}
+.span{
+    color: grey;
+}
+.header{
+
+color: white;
+text-align: center;
+font-family: "Poppins", sans-serif;
+}
+
+.send{
+        width: 100%;
+        background-color: #f44336!important;
+        color:white!important;
+   
+    }
+#navumenu{
+      display: none;
+    }
+
+.sidebar {
+        height: 100%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        display: none;
+        background-color: #f44336!important;
+        color:white!important;
+        transition: 0.5s;
+        padding-top: 90px;
+      }
+      
+.sidebar a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 20px;
+        color: white;
+        display: block;
+        transition: 0.3s;
+      }
+      
+  .sidebar a:hover {
+        color: black;
+        background-color: white;
+      }
+      
+       .sidebar .closebtn {
+        position: absolute;
+        top: 0;
+        font-size: 25px;
+        margin-top: 30px;
+        /* text-align: center; */
+        width: 250px;
+        font-family: sans-serif;
+        font-weight: bold;
+      
+      }
+     .sidebar .closebtn:hover{
+        background-color:#ccc;
+        color:black;
+      }
+      
+     #main {
+        transition: margin-left .5s;
+       
+      }
+      #open{
+        transition: margin-left .5s;
+      }
+      .openbtn{
+        font-size: 20px;
+        cursor: pointer;
+        background-color:  #f44336;
+        float: left;
+         color: white;
+        padding: 10px 15px;
+        border: none;
+
+      }
+      .toggler{
+        height: 20px;
+        width: 20px;
+      }
+      .toggler:hover{
+        background-color: #ccc;
+        color: black;
+      }
+      
+      
+      /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+      @media screen and (max-height: 450px) {
+        
+        .sidebar a {font-size: 18px;}
+      }
+      
+     
+
+     
